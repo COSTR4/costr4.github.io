@@ -253,23 +253,24 @@
           <p id="contact-p">antukhaev@yahoo.com</p>
           <p id="contact-p">Tel: 1-647-999-0000</p>
         </div>
-        <div class="c-element-2">
+        <form class="c-element-2" action="https://mailthis.to/antukhaev@yahoo.com" 
+        method="POST">
           <div class="c-field-1">
-            <input type="text" placeholder="Name" required>
+            <input type="text" name="name" placeholder="Name" required>
           </div>
           <div class="c-field-2">
-            <input type="text" placeholder="E-Mail" required>
+            <input type="email" name="email" placeholder="E-Mail" required>
           </div>
           <div class="c-field-3">
-            <input type="text" placeholder="Phone" required>
+            <input type="tel" name="telephone" placeholder="Phone" required>
           </div>
           <div class="c-field-4">
-            <textarea placeholder="Message" required></textarea>
+            <textarea placeholder="Message" name="message" required></textarea>
           </div>
           <div class="c-field-5">
-            <button id="submit">Submit</button>
+            <button id="submit" type="submit">Submit</button>
           </div>
-        </div>
+        </form>
         <div class="c-element-3">
           <p id="social">
             <a href="#" id="social_icon"><i class="fab fa-facebook-square"></i></a>
