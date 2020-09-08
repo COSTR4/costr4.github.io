@@ -126,7 +126,7 @@ p {
 /*** HERO ***/
 
 .hero {
-  background: url("https://costr4.github.io/perm_bg-2.png") center center no-repeat;
+  background: url("../img/perm_bg-2.png") center center no-repeat;
   height: 1000px;
   max-width: 100%;
   background-repeat: no-repeat;
