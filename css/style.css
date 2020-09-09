@@ -208,6 +208,7 @@ p {
 
   .hero-text #hero-p {
     font-size: 1.2rem;
+    margin: 4.5rem 0 0;
   }
 }
 
@@ -773,6 +774,7 @@ footer {
 
   .hero {
     height: 800px;
+    background-position: bottom left;
   }
 
   #hero-h {
