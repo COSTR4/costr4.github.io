@@ -63,11 +63,33 @@ p {
   }
 }
 
+@media (max-width: 390px){
+  body h1 {
+    font-size: 1.3rem;
+  }
+
+  body p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 390px){
+  body h1 {
+    font-size: 1.2rem;
+  }
+
+  body p {
+    font-size: 0.7rem;
+  }
+}
+
 /*** NAVBAR ***/
 
 .menu {
-  position: sticky;
+  position: fixed;
   top: 0;
+  right: 0;
+  left: 0;
   padding: 0.9375rem 0;
   background: #222226;
   border-bottom: 2px solid #ff8e8a;
@@ -150,7 +172,7 @@ p {
   text-shadow: 1px 1px #222226;
   font-family: 'Comfortaa';
   font-weight: 700;
-  letter-spacing: 0.75rem;
+  letter-spacing: 1rem;
   margin: 0;
 }
 
@@ -176,6 +198,27 @@ p {
   }
 }
 
+@media (max-width: 404px){
+  .hero-text #hero-h {
+    font-size: 2rem;
+  }
+
+  .hero-text #hero-p {
+    font-size: 1rem;
+    margin: 4rem 0 0;
+  }
+}
+
+@media (max-width: 320px){
+  .hero-text #hero-h {
+    font-size: 1.7rem;
+  }
+
+  .hero-text #hero-p {
+    margin: 3rem 0 0;
+  }
+}
+
 /*** PORTFOLIO ***/
 
 .portfolio {
@@ -188,6 +231,13 @@ p {
 
 #portfolio {
   padding: 300px 0 150px;
+}
+
+@media (max-width: 379px){
+  #portfolio .portfolio {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 #p-v-more {
@@ -227,6 +277,24 @@ p {
   margin: 0 auto;
 }
 
+@media (max-width: 320px){
+  body .wrapper #skills {
+    padding: 150px 10px;
+  }
+}
+
+@media (max-width: 331px){
+  .wrapper #skills {
+    padding: 150px 0;
+  }
+}
+
+@media (max-width: 371px){
+  #skills {
+    padding: 150px 10px;
+  }
+}
+
 @media (max-width: 500px){
   body .wrapper .tech-skills {
     padding: 150px 30px;
@@ -246,11 +314,23 @@ p {
   text-shadow: 1px 1px black;
 }
 
+@media (max-width: 414px){
+  .ts-ruby {
+    font-size: 28px;
+  }
+}
+
 .ts-element {
   display: grid;
   padding: 0;
   align-items: center;
   grid-template-columns: auto repeat(5, 50px);
+}
+
+@media (max-width: 320px){
+  .ts-element {
+    grid-template-columns: auto repeat(5, 40px);
+  }
 }
 
 h3 {
@@ -618,7 +698,7 @@ footer {
   }
   [aria-controls="menu-list"] {
     display: block;
-    margin: 0 10px 10px;
+    margin: 0 10px 0;
     border: none;
     font-size: 22px;
     color: #ff8e8a;
@@ -731,104 +811,6 @@ footer {
 }
 
 /**************************************************/
-
-/* iPhone 6 to X (375px) */
-
-@media (max-width: 23.4em){
-  /* NAVBAR */
-  /* HERO */
-  /* WRAPPER */
-  /* PORTFOLIO */
-  /* SKILLS */
-  /* AREAS */
-  /* RESUME */
-  /* CONTACT */
-  /* FOOTER */
-}
-
-/* iPhone 8 Plus (414px) */
-
-@media (max-width: 25.8em){
-  /* NAVBAR */
-  /* HERO */
-  /* WRAPPER */
-  /* PORTFOLIO */
-  /* SKILLS */
-  /* AREAS */
-  /* RESUME */
-  /* CONTACT */
-  /* FOOTER */
-}
-
-/* iPad Air, iPad Mini, iPad Pro 9 (768px) */
-
-@media (max-width: 48em){
-  /* NAVBAR */
-  /* HERO */
-  /* WRAPPER */
-  /* PORTFOLIO */
-  /* SKILLS */
-  /* AREAS */
-  /* RESUME */
-  /* CONTACT */
-  /* FOOTER */
-}
-
-/* iPad Pro 10 (834px) */
-
-@media (max-width: 834px){
-  /* NAVBAR */
-  /* HERO */
-  /* WRAPPER */
-  /* PORTFOLIO */
-  /* SKILLS */
-  /* AREAS */
-  /* RESUME */
-  /* CONTACT */
-  /* FOOTER */
-}
-
-/* Small Laptops (1024px) */
-
-@media (max-width: 1000px){
-  /* NAVBAR */
-  /* HERO */
-  /* WRAPPER */
-  /* PORTFOLIO */
-  /* SKILLS */
-  /* AREAS */
-  /* RESUME */
-  /* CONTACT */
-  /* FOOTER */
-}
-
-/* HD TV (1280px) */
-
-@media (max-width: 80em){
-  /* NAVBAR */
-  /* HERO */
-  /* WRAPPER */
-  /* PORTFOLIO */
-  /* SKILLS */
-  /* AREAS */
-  /* RESUME */
-  /* CONTACT */
-  /* FOOTER */
-}
-
-/* Laptops (1440px) */
-
-@media (max-width: 90em){
-  /* NAVBAR */
-  /* HERO */
-  /* WRAPPER */
-  /* PORTFOLIO */
-  /* SKILLS */
-  /* AREAS */
-  /* RESUME */
-  /* CONTACT */
-  /* FOOTER */
-}
 
 /* 4K Display (2560px) */
 

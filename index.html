@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
-    <title>Sergei Antukhaev</title>
+    <title>Sergei Antukhaev - Web Developer</title>
   </head>
 
   <body> <!-- BODY -->
@@ -18,11 +18,11 @@
           <span class="open"><i class="fas fa-bars"></i></span>
           <span class="close"><i class="fas fa-times"></i></span>
         </button>
-        <a href="index.html" class="mobile-logo"><img src="img/s_logo.png" alt="logo"></a>
+        <a href="http://sergei-dev.com/" class="mobile-logo"><img src="img/s_logo.png" alt="logo"></a>
       </div>
       <ul id="menu-list">
         <li class="desktop-logo">
-          <a href="index.html" class="logo"><img src="img/s_logo.png" alt="logo"></a>
+          <a href="http://sergei-dev.com/" class="logo"><img src="img/s_logo.png" alt="logo"></a>
         </li>
         <li>
           <a href="#portfolio">PORTFOLIO</a>
@@ -58,16 +58,16 @@
       
       <div id="portfolio"> <!-- PORTFOLIO -->
         <h1>PORTFOLIO</h1>
-        <p>MY LATEST PROJECTS. <a href="#" id="p-v-more">VIEW MORE <i class="fas fa-angle-double-right"></i></a></p>
+        <p>MY LATEST PROJECTS. <a href="https://www.behance.net/antukhaev" id="p-v-more">VIEW MORE <i class="fas fa-angle-double-right"></i></a></p>
           <div class="portfolio">
             <div class="p-element-1">
-              <a href="#"><img src="img/eAs_cover.png"></a>
+              <a href="https://www.behance.net/gallery/85534921/Elite-Auto-Spa-Website-Design"><img src="img/eAs_cover.png" alt="Elite Auto Spa Website Design"></a>
             </div>
             <div class="p-element-2">
-              <a href="#"><img src="img/OdysseyElectronics_Banner.png"></a>
+              <a href="https://www.behance.net/gallery/89072561/Odyssey-Electronics-Home-Page-Design"><img src="img/OdysseyElectronics_Banner.png" alt="Odyssey Electronics Home Page Design"></a>
             </div>
             <div class="p-element-3">
-              <a href="#"><img src="img/mockup-baikal.png"></a>
+              <a href="https://www.behance.net/gallery/89506659/Baikal-Explorer-Concept-Landing-Page-Design"><img src="img/mockup-baikal.png" alt="Baikal Explorer Concept Design"></a>
             </div>
           </div>
       </div> <!-- PORTFOLIO END -->
@@ -230,7 +230,7 @@
 
       <div id="resume"> <!-- RESUME -->
         <h1>RESUME</h1>
-        <p><a href="#" id="down">DOWNLOAD <i class="fas fa-angle-double-down"></i></a></p>
+        <p><a href="img/AS_resume.png" id="down" download="S.Antukhaev-Resume">DOWNLOAD <i class="fas fa-angle-double-down"></i></a></p>
           <div class="resume">
             <div class="resume-overlay">
               <a href="javascript:openModal()">VIEW <i class="fas fa-arrow-circle-right"></i></a>
@@ -251,7 +251,7 @@
           <h4>CONTACT</h4>
           <p id="contact-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, at repellendus</p>
           <p id="contact-p">antukhaev@yahoo.com</p>
-          <p id="contact-p">Tel: 1-647-999-0000</p>
+          <p id="contact-p">Tel: 1-647-803-8135</p>
         </div>
         <form class="c-element-2" action="https://mailthis.to/antukhaev@yahoo.com" 
         method="POST">
@@ -273,9 +273,9 @@
         </form>
         <div class="c-element-3">
           <p id="social">
-            <a href="#" id="social_icon"><i class="fab fa-facebook-square"></i></a>
-            <a href="#" id="social_icon"><i class="fab fa-instagram-square"></i></a>
-            <a href="#" id="social_icon"><i class="fab fa-behance-square"></i></a>
+            <a href="https://www.facebook.com/antukhaev" id="social_icon"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/asm.is.awsm" id="social_icon"><i class="fab fa-instagram-square"></i></a>
+            <a href="https://www.behance.net/antukhaev" id="social_icon"><i class="fab fa-behance-square"></i></a>
           </p>
         </div>
       </div> <!-- CONTACT END -->
@@ -309,6 +309,15 @@
       }
 
       navButton.addEventListener('click', toggleNav);
+
+      menuUl.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', event => {
+          expanded = false;
+          navButton.setAttribute('aria-expanded', false);
+          menuUl.className = 'active-false';
+        });
+      });
+
     </script>
   </body> <!-- BODY END -->
 </html>
