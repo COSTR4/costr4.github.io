@@ -150,10 +150,13 @@ p {
 .hero {
   background-image: url("../img/hero_background.png");
   height: 1000px;
-  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 .hero-text {
