@@ -148,7 +148,7 @@ p {
 /*** HERO ***/
 
 .hero {
-  background: url("../img/perm_bg-2.png") center center no-repeat;
+  background-image: url("../img/perm_bg-2.png");
   height: 1000px;
   max-width: 100%;
   background-repeat: no-repeat;
@@ -520,8 +520,8 @@ h3 {
   grid-gap: 50px;
   margin: 150px 0 0;
   background-color: #ff8e8a;
-  box-shadow: rgba(0, 0, 0, 0.7);
-  padding: 100px 150px;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+  padding: 100px 150px 50px;
 }
 
 @media (max-width: 932px) {
@@ -581,9 +581,11 @@ h4 {
 }
 
 #social {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   font-size: 35px;
-  margin: 50px 0 0;
-  word-spacing: 25px;
+  width: 300px;
+  margin: 50px auto;
   text-decoration: none;
 }
 
