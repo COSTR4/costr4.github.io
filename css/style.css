@@ -826,19 +826,3 @@ footer {
 
   /* FOOTER */
 }
-
-/**************************************************/
-
-/* 4K Display (2560px) */
-
-@media (max-width: 160em){
-  /* NAVBAR */
-  /* HERO */
-  /* WRAPPER */
-  /* PORTFOLIO */
-  /* SKILLS */
-  /* AREAS */
-  /* RESUME */
-  /* CONTACT */
-  /* FOOTER */
-}
