@@ -418,6 +418,7 @@ h3 {
 
 #resume {
   padding: 150px;
+  display: none;
 }
 
 @media (max-width: 599px){
