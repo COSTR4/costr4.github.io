@@ -123,7 +123,7 @@ p {
   color: #ff8e8a;
   font-size: 0.75rem;
   font-family: 'Comfortaa';
-  font-weight: 300;
+  font-weight: 500;
   text-decoration: none;
   letter-spacing: 2px;
 }
@@ -149,7 +149,7 @@ p {
 
 .hero {
   background-image: url("../img/hero_background.png");
-  height: 1000px;
+  height: 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom;
@@ -536,6 +536,7 @@ h3 {
   margin: 150px 0 0;
   background-color: #ff8e8a;
   box-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+  border-radius: 12px;
   padding: 100px 150px 50px;
 }
 
