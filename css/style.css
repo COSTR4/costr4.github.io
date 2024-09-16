@@ -48,6 +48,7 @@ p {
   text-shadow: 1px 1px #222226;
   font-family: 'Comfortaa';
   font-weight: 300;
+  line-height: 1.8em;
   letter-spacing: 3px;
   margin: 1.6rem 0 8rem;
 }
@@ -533,7 +534,7 @@ h3 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 50px;
-  margin: 150px 0 0;
+  margin: 150px 1rem;
   background-color: #ff8e8a;
   box-shadow: 1px 1px rgba(0, 0, 0, 0.7);
   border-radius: 12px;
