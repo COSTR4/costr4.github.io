@@ -48,7 +48,6 @@ p {
   text-shadow: 1px 1px #222226;
   font-family: 'Comfortaa';
   font-weight: 300;
-  line-height: 1.8em;
   letter-spacing: 3px;
   margin: 1.6rem 0 8rem;
 }
@@ -60,7 +59,7 @@ p {
 
   body p {
     font-size: 0.9rem;
-    line-height: 1.5em;
+    line-height: 1.8em;
   }
 }
 
@@ -587,7 +586,7 @@ h4 {
 
 #contact-p {
   text-align: left;
-  line-height: 1.3em;
+  line-height: 1.4em;
   text-decoration: none;
   text-shadow: none;
   font-size: 14px;
